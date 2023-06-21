@@ -1,0 +1,93 @@
+body{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+
+    
+    
+}
+
+#tudo{
+    width: 90vw;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#elenco-feminino{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+    
+}
+
+img {
+    width: 100%;    
+    max-width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border-width: 2px;
+    border-color: white black;
+    border-style: solid;
+}
+
+
+#elenco-masculino{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 80vw;
+    margin: auto;
+
+
+    
+}
+
+.jogador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+@media screen and (min-width: 768px){
+
+    #elenco-masculino{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #elenco-feminino{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+ 
+    #elenco-masculino{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #elenco-feminino{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
