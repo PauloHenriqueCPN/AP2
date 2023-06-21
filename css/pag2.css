@@ -49,6 +49,8 @@ img {
     border-radius: 2px;
     border-color: silver;
     width: 8em;
+    height: 2em;
+    font-size: 20px;
 }
 
 #div-voltar {
